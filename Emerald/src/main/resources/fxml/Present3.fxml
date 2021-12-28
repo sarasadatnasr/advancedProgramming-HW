@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Present3controller">
+   <children>
+      <ImageView fitHeight="401.0" fitWidth="603.0">
+         <image>
+            <Image url="@../image/allPresent.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#08430e" layoutX="224.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There is always a poem:)">
+         <font>
+            <Font name="Purisa" size="19.0" />
+         </font>
+      </Text>
+      <Hyperlink layoutX="207.0" layoutY="91.0" prefHeight="22.0" prefWidth="367.0" text="http://sayeha.org/%D8%B4%D8%B9%D8%B1%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B2-%D8%B3%DB%8C%D8%AF-%D9%85%D9%87%D8%AF%DB%8C-%D9%85%D9%88%D8%B3%D9%88%DB%8C-2/" />
+      <Button fx:id="backToThePresents" layoutX="237.0" layoutY="161.0" mnemonicParsing="false" onAction="#backToThePresents" prefHeight="53.0" prefWidth="290.0" style="-fx-background-color: #A9DFBF; -fx-background-radius: 10;" text="Back to the presents tabel" textFill="#084615">
+         <font>
+            <Font name="Purisa Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
